@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>ARTIGENCE AI HUB — Turning Ideas into Intelligent Solutions</title>
+  <meta name="title" content="ARTIGENCE AI HUB — Turning Ideas into Intelligent Solutions">
+  <meta name="description" content="We build AI-powered applications, intelligent digital platforms and technology solutions that transform real-world ideas into scalable products.">
+  <meta name="keywords" content="Artigence AI Hub, Artificial Intelligence, Machine Learning, Flutter, Web Development, Mobile Apps, IoT, Smart Systems, Haridas Muthuraman, Jayasurya">
+  <meta name="author" content="Artigence AI Hub">
+  <meta name="theme-color" content="#090416">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://artigenceaihub.com/">
+  <meta property="og:title" content="ARTIGENCE AI HUB — Turning Ideas into Intelligent Solutions">
+  <meta property="og:description" content="We build AI-powered applications, intelligent digital platforms and technology solutions that transform real-world ideas into scalable products.">
+  <meta property="og:image" content="assets/logo.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="ARTIGENCE AI HUB — Turning Ideas into Intelligent Solutions">
+  <meta property="twitter:description" content="We build AI-powered applications, intelligent digital platforms and technology solutions that transform real-world ideas into scalable products.">
+  <meta property="twitter:image" content="assets/logo.jpg">
+
+  <!-- Favicon using the authentic Artigence AI Hub company logo -->
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <link rel="apple-touch-icon" href="assets/logo.jpg">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Ambient Glowing Background Orbs & Tech Grid -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+    <div class="tech-grid-overlay"></div>
+  </div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <!-- Authentic Brand Logo & Name -->
+      <a href="#home" class="brand-logo" aria-label="Artigence AI Hub Home">
+        <img src="assets/logo.jpg" alt="Artigence AI Hub Official Logo" class="brand-logo-img" width="44" height="44">
+        <div class="brand-logo-text">
+          <span class="brand-title">ARTIGENCE</span>
+          <span class="brand-tagline">AI HUB</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" role="navigation" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#technology" class="nav-link">Technology</a>
+        <a href="#approach" class="nav-link">Approach</a>
+        <a href="#team" class="nav-link">Team</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm btn-nav">Contact Us</a>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+    <nav class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link active">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#solutions" class="mobile-nav-link">Solutions</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#technology" class="mobile-nav-link">Technology</a>
+      <a href="#approach" class="mobile-nav-link">Approach</a>
+      <a href="#team" class="mobile-nav-link">Team</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+    <div class="mobile-nav-actions">
+      <a href="#contact" class="btn btn-primary">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- ====================================================================
+         HERO SECTION
+         ==================================================================== -->
+    <section id="home" class="hero-section" aria-label="Hero Introduction">
+      <canvas id="hero-particles" aria-hidden="true"></canvas>
+
+      <div class="container hero-grid">
+        <!-- Hero Text & CTAs -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-pill-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            Innovate • Automate • Elevate — Since 2026
+          </div>
+
+          <h1 class="hero-title">
+            <span class="gradient-text">ARTIGENCE AI HUB</span>
+          </h1>
+
+          <p class="hero-tagline">
+            <span class="hero-tagline-quote">“</span>Turning Ideas into Intelligent Solutions.<span class="hero-tagline-quote">”</span>
+          </p>
+
+          <p class="hero-description">
+            We build AI-powered applications, intelligent digital platforms and technology solutions that transform real-world ideas into scalable products.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore Our Work
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Contact Us
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-label">Engineering Focus</span>
+              <span class="metric-value">
+                <span class="metric-dot"></span> AI & Digital Systems
+              </span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Product Stacks</span>
+              <span class="metric-value">Mobile • Web • IoT</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Philosophy</span>
+              <span class="metric-value">Build Local, Think Global</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero 3D Visual Holographic Display -->
+        <div class="hero-visual reveal-on-scroll reveal-delay-2">
+          <div class="hero-card-3d">
+            <div class="hero-logo-frame">
+              <div class="hero-cyber-ring" aria-hidden="true"></div>
+              <div class="hero-cyber-ring-inner" aria-hidden="true"></div>
+              <img src="assets/logo.jpg" alt="Artigence AI Hub Holographic Emblem" class="hero-logo-img" width="170" height="170">
+            </div>
+
+            <div class="hero-card-header">
+              <h2 class="hero-card-title gradient-text">ARTIGENCE AI HUB</h2>
+              <span class="hero-card-sub">Intelligent Systems Laboratory</span>
+            </div>
+
+            <div class="hero-card-specs">
+              <div class="spec-row">
+                <span class="spec-label">Core Architecture</span>
+                <span class="spec-val">AI • IoT • Cloud</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Platform Status</span>
+                <span class="spec-val" style="color: var(--accent-emerald);">● Online & Operational</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Flagship Systems</span>
+                <span class="spec-val">AI Ration ATM • Agarbatti Dryer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABOUT SECTION
+         ==================================================================== -->
+    <section id="about" class="section section-darker" aria-label="About Artigence AI Hub">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            About Us
+          </span>
+          <h2 class="section-title">
+            Engineering Practical Intelligence for the <span class="gradient-text">Real World</span>
+          </h2>
+          <p class="section-subtitle">
+            Bridging cutting-edge artificial intelligence with pragmatic software architecture to solve everyday challenges.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Narrative -->
+          <div class="about-narrative reveal-on-scroll">
+            <p class="about-lead">
+              At Artigence AI Hub, we believe technology reaches its highest purpose when it transforms tangible everyday problems into elegant, reliable, and scalable software solutions.
+            </p>
+            <p class="about-body">
+              We specialize in creating practical technology solutions leveraging <strong>Artificial Intelligence</strong>, <strong>Modern Web Frameworks</strong>, <strong>Cross-Platform Mobile Ecosystems</strong>, and <strong>Connected IoT Hardware</strong>. From localized consumer marketplaces like wedding discovery systems to automated grain distribution dispensers and climate-controlled drying apparatuses, our solutions are engineered for resilience, efficiency, and human-first utility.
+            </p>
+
+            <!-- Vision Callout Card -->
+            <div class="vision-card">
+              <div class="vision-badge">Organizational Vision</div>
+              <div class="vision-quote">“Build Local. Think Global.”</div>
+              <p class="vision-sub">
+                Rooted in addressing real grassroot community needs while architecting with world-class engineering standards.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4 Core Pillars Grid -->
+          <div class="pillars-grid reveal-on-scroll reveal-delay-2">
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V17a1 1 0 0 1-2 0v-.07A7 7 0 0 1 5.07 11H5a1 1 0 0 1 0-2h.07A7 7 0 0 1 11 5.07V5a1 1 0 0 1 2 0v.07A7 7 0 0 1 18.93 11H19a1 1 0 0 1 0 2h-.07A7 7 0 0 1 13 16.93z"/></svg>
+              </div>
+              <h3 class="pillar-title">Pragmatic AI</h3>
+              <p class="pillar-text">Applied machine learning and computer vision designed for immediate real-world reliability, not theoretical novelty.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <h3 class="pillar-title">Full-Stack Scale</h3>
+              <p class="pillar-text">Modern cloud backends, performant Flutter mobile apps, and fluid responsive web interfaces built for high concurrency.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <h3 class="pillar-title">Rapid Prototyping</h3>
+              <p class="pillar-text">Moving quickly from research and architectural diagrams to operational, testable, and demonstrable MVP hardware & software.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="pillar-title">Community Impact</h3>
+              <p class="pillar-text">Empowering small businesses, rural artisans, and civic operations with accessible digital infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SOLUTIONS SECTION (4 Premium Animated Cards)
+         ==================================================================== -->
+    <section id="solutions" class="section" aria-label="Solutions">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Our Capabilities
+          </span>
+          <h2 class="section-title">
+            Intelligent Solutions Built for <span class="gradient-text">Impact</span>
+          </h2>
+          <p class="section-subtitle">
+            Transforming complex technical capabilities into intuitive, scalable digital products across platforms.
+          </p>
+        </div>
+
+        <div class="solutions-grid">
+          <!-- Solution 1: AI Solutions -->
+          <div class="solution-card reveal-on-scroll reveal-delay-1">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>
+              </div>
+              <span class="solution-num">Solution 01</span>
+              <h3 class="solution-title">AI Solutions</h3>
+              <p class="solution-desc">Intelligent systems for real-world problems.</p>
+            </div>
+            <div class="solution-tags">
+              <span class="solution-chip">Machine Learning</span>
+              <span class="solution-chip">Computer Vision</span>
+              <span class="solution-chip">Automation</span>
+              <span class="solution-chip">Telemetry</span>
+            </div>
+          </div>
+
+          <!-- Solution 2: Web Applications -->
+          <div class="solution-card reveal-on-scroll reveal-delay-2">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <span class="solution-num">Solution 02</span>
+              <h3 class="solution-title">Web Applications</h3>
+              <p class="solution-desc">Modern, responsive and scalable web platforms.</p>
+            </div>
+            <div class="solution-tags">
+              <span class="solution-chip">Scalable Architecture</span>
+              <span class="solution-chip">High Performance</span>
+              <span class="solution-chip">Real-time Portals</span>
+              <span class="solution-chip">Clean UX</span>
+            </div>
+          </div>
+
+          <!-- Solution 3: Mobile Applications -->
+          <div class="solution-card reveal-on-scroll reveal-delay-3">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <span class="solution-num">Solution 03</span>
+              <h3 class="solution-title">Mobile Applications</h3>
+              <p class="solution-desc">User-focused Android and mobile experiences.</p>
+            </div>
+            <div class="solution-tags">
+              <span class="solution-chip">Flutter Apps</span>
+              <span class="solution-chip">Android Native</span>
+              <span class="solution-chip">Bilingual UI</span>
+              <span class="solution-chip">Offline Cache</span>
+            </div>
+          </div>
+
+          <!-- Solution 4: Digital Platforms -->
+          <div class="solution-card reveal-on-scroll reveal-delay-4">
+            <div class="solution-card-top">
+              <div class="solution-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <span class="solution-num">Solution 04</span>
+              <h3 class="solution-title">Digital Platforms</h3>
+              <p class="solution-desc">Technology platforms connecting people, businesses and services.</p>
+            </div>
+            <div class="solution-tags">
+              <span class="solution-chip">Marketplaces</span>
+              <span class="solution-chip">Service Networks</span>
+              <span class="solution-chip">Cloud APIs</span>
+              <span class="solution-chip">IoT Ecosystems</span>
+            </div>
+          </div>
+
+          <!-- Digital Marketing Business -->
+          <div class="solution-card solution-card-image reveal-on-scroll reveal-delay-5">
+            <div class="solution-image-wrap">
+              <img src="public/images/Screenshot-2025-01-21-alle-15.45.48-scaled.webp" alt="Digital Marketing Business" loading="lazy">
+            </div>
+            <div class="solution-card-top">
+              <span class="solution-num">Solution 05</span>
+              <h3 class="solution-title">Digital Marketing Business</h3>
+              <p class="solution-desc">A focused digital marketing business helping brands build visibility, reach the right audience, and grow online.</p>
+            </div>
+            <div class="solution-tags">
+              <span class="solution-chip">Social Media</span>
+              <span class="solution-chip">Brand Visibility</span>
+              <span class="solution-chip">Content Strategy</span>
+              <span class="solution-chip">Lead Generation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PROJECTS SECTION
+         ==================================================================== -->
+    <section id="projects" class="section section-darker" aria-label="Our Projects">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Our Projects
+          </span>
+          <h2 class="section-title">
+            Our <span class="gradient-text">Projects</span>
+          </h2>
+          <p class="section-subtitle">
+            Explore our engineering prototypes, working implementations, and technology platforms in development.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="project-filters reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai-iot">AI &amp; IoT</button>
+          <button class="filter-btn" data-filter="smart-transit">Smart Transportation</button>
+          <button class="filter-btn" data-filter="web-mobile">Wedding Tech</button>
+        </div>
+
+        <!-- Dynamic Projects Grid (Populated via js/projects-data.js) -->
+        <div id="projects-container" class="projects-grid">
+          <!-- Fallback project cards for SEO and non-JS clients -->
+          <article class="project-card">
+            <div class="project-image-wrap">
+              <img src="public/images/Screenshot 2026-09-17 200620.png" alt="AI Smart Ration Distribution System" loading="lazy" class="project-card-image">
+              <span class="project-badge-pill status-prototype"><span class="status-dot"></span>Prototype</span>
+            </div>
+            <div class="project-body">
+              <span class="project-category">AI • IoT • Automation</span>
+              <h3 class="project-title">AI Smart Ration Distribution System</h3>
+              <p class="project-desc">An automated public distribution solution integrating citizen verification, high-precision weighing, motorized grain dispensing, and cloud transaction tracking.</p>
+              <div class="project-footer">
+                <button class="btn btn-secondary btn-sm open-project-modal" data-id="smart-ration">View Project</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TECHNOLOGY SECTION
+         ==================================================================== -->
+    <section id="technology" class="section" aria-label="Technology Stack">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Technical Arsenal
+          </span>
+          <h2 class="section-title">
+            Technologies Powering <span class="gradient-text">Our Solutions</span>
+          </h2>
+          <p class="section-subtitle">
+            Modern, enterprise-grade frameworks, languages, and platforms we leverage to build resilient systems.
+          </p>
+        </div>
+
+        <div class="tech-grid reveal-on-scroll">
+          <!-- Tech 1: Artificial Intelligence -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 3.37 2.1 6.25 5.09 7.41L9 22h6l-.09-4.59C17.9 16.25 20 13.37 20 10a8 8 0 0 0-8-8z"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>Artificial Intelligence</h3>
+              <p>Machine learning, computer vision models, anomaly detection, and automated decision logic.</p>
+            </div>
+          </div>
+
+          <!-- Tech 2: Python -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>Python</h3>
+              <p>Core backend services, data analysis, automation scripts, and sensor telemetry processing.</p>
+            </div>
+          </div>
+
+          <!-- Tech 3: Flutter -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>Flutter</h3>
+              <p>High-performance, fluid cross-platform Android & mobile apps with native 60fps rendering.</p>
+            </div>
+          </div>
+
+          <!-- Tech 4: Web Technologies -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>Web Technologies</h3>
+              <p>Modern HTML5, CSS3, ES6+ JavaScript, responsive dashboards, and interactive user experiences.</p>
+            </div>
+          </div>
+
+          <!-- Tech 5: Cloud -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>Cloud</h3>
+              <p>Scalable cloud infrastructure, secure authentication, serverless functions, and file storage.</p>
+            </div>
+          </div>
+
+          <!-- Tech 6: Database -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>Database</h3>
+              <p>Structured relational data, real-time NoSQL document databases, and optimized local caching.</p>
+            </div>
+          </div>
+
+          <!-- Tech 7: APIs -->
+          <div class="tech-card">
+            <div class="tech-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <div class="tech-info-wrap">
+              <h3>APIs</h3>
+              <p>RESTful architectures, WebSocket event streams, hardware serial communication, and third-party gateways.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         APPROACH SECTION (4-Step Animated Timeline)
+         ==================================================================== -->
+    <section id="approach" class="section section-darker" aria-label="Development Approach">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Methodology
+          </span>
+          <h2 class="section-title">
+            Our Structured <span class="gradient-text">Engineering Approach</span>
+          </h2>
+          <p class="section-subtitle">
+            From initial problem discovery to continuous feedback loops and platform scaling.
+          </p>
+        </div>
+
+        <div class="approach-timeline reveal-on-scroll">
+          <!-- Step 01 -->
+          <div class="timeline-step">
+            <div class="step-number-bubble">01</div>
+            <h3 class="step-title">Understand</h3>
+            <p class="step-desc">
+              We analyze the real-world operational problem, interview stakeholders, evaluate domain constraints, and establish clear technical objectives.
+            </p>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="timeline-step">
+            <div class="step-number-bubble">02</div>
+            <h3 class="step-title">Design</h3>
+            <p class="step-desc">
+              We architect system diagrams, select appropriate sensors and software stacks, blueprint data pipelines, and design human-friendly interfaces.
+            </p>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="timeline-step">
+            <div class="step-number-bubble">03</div>
+            <h3 class="step-title">Build</h3>
+            <p class="step-desc">
+              We write clean, modular code, implement robust algorithms, calibrate hardware electronics, and validate with rigorous end-to-end testing.
+            </p>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="timeline-step">
+            <div class="step-number-bubble">04</div>
+            <h3 class="step-title">Improve</h3>
+            <p class="step-desc">
+              We deploy the solution, gather real-world telemetry and user feedback, optimize response latencies, and iteratively enhance features.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TEAM SECTION
+         ==================================================================== -->
+    <section id="team" class="section" aria-label="Our Team">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Leadership
+          </span>
+          <h2 class="section-title">
+            The Minds Behind <span class="gradient-text">Artigence AI Hub</span>
+          </h2>
+          <p class="section-subtitle">
+            Passionate innovators driven by practical problem solving and high-impact technology.
+          </p>
+        </div>
+
+        <div class="team-grid reveal-on-scroll">
+          <!-- Team Member 1: Founder -->
+          <div class="team-card">
+            <div class="team-avatar-frame" aria-hidden="true">
+              MH
+            </div>
+            <h3 class="team-name">M. Haridas</h3>
+            <div class="team-role">Founder</div>
+            <div class="team-specialties">
+              <span class="team-chip">Product Strategy</span>
+              <span class="team-chip">AI Architecture</span>
+              <span class="team-chip">IoT Systems</span>
+            </div>
+            <div class="team-contacts">
+              <a href="mailto:haridassharidass431@gmail.com" class="team-contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                haridassharidass431@gmail.com
+              </a>
+              <a href="tel:+918870265485" class="team-contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +91 8870265485
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 2: Project Lead -->
+          <div class="team-card">
+            <div class="team-avatar-frame" aria-hidden="true">
+              MJ
+            </div>
+            <h3 class="team-name">Jayasurya</h3>
+            <div class="team-role">Project Lead</div>
+            <div class="team-specialties">
+              <span class="team-chip">Full-Stack Web</span>
+              <span class="team-chip">Mobile Engineering</span>
+              <span class="team-chip">System Integration</span>
+            </div>
+            <div class="team-contacts">
+              <a href="mailto:surya412007@gmail.com" class="team-contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                surya412007@gmail.com
+              </a>
+              <a href="tel:+918925106350" class="team-contact-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +91 8925106350
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VISION BANNER SECTION
+         ==================================================================== -->
+    <section class="vision-banner-section" aria-label="Company Vision">
+      <div class="container">
+        <div class="vision-banner-content reveal-on-scroll">
+          <span class="vision-banner-tag">Guiding Principle</span>
+          <h2 class="vision-banner-headline gradient-text">
+            “Build Local. Think Global.”
+          </h2>
+          <p class="vision-banner-lead">
+            We architect intelligence that solves authentic ground-level problems today, built to scale across global landscapes tomorrow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CONTACT SECTION
+         ==================================================================== -->
+    <section id="contact" class="section section-darker" aria-label="Contact Us">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Let's Collaborate
+          </span>
+          <h2 class="section-title">
+            Connect with <span class="gradient-text">Artigence AI Hub</span>
+          </h2>
+          <p class="section-subtitle">
+            Have an idea, project, or challenge? Reach out to discuss how we can engineer an intelligent solution together.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Channels -->
+          <div class="contact-info-panel reveal-on-scroll">
+            <!-- Phone -->
+            <div class="contact-channel-card">
+              <div class="channel-left">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="channel-title">Phone</div>
+                  <div class="channel-value">+91 8870265485</div>
+                </div>
+              </div>
+              <button class="channel-action-btn copy-trigger" data-copy="+918870265485" title="Copy Phone Number">Copy</button>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-channel-card">
+              <div class="channel-left">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="channel-title">Email</div>
+                  <div class="channel-value">haridassharidass431@gmail.com</div>
+                </div>
+              </div>
+              <button class="channel-action-btn copy-trigger" data-copy="haridassharidass431@gmail.com" title="Copy Email">Copy</button>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-channel-card">
+              <div class="channel-left">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="channel-title">Location</div>
+                  <div class="channel-value">Tamil Nadu, India</div>
+                </div>
+              </div>
+              <span class="channel-action-btn" style="pointer-events: none;">Hub Base</span>
+            </div>
+
+            <!-- WhatsApp Direct -->
+            <div class="contact-channel-card">
+              <div class="channel-left">
+                <div class="channel-icon" style="color: #25D366; background: rgba(37, 211, 102, 0.1);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </div>
+                <div>
+                  <div class="channel-title">WhatsApp</div>
+                  <div class="channel-value">+91 8870265485</div>
+                </div>
+              </div>
+              <a href="https://wa.me/918870265485" target="_blank" rel="noopener noreferrer" class="channel-action-btn" style="text-decoration:none;">Chat</a>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-channel-card">
+              <div class="channel-left">
+                <div class="channel-icon" style="color: #E1306C; background: rgba(225, 48, 108, 0.1);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </div>
+                <div>
+                  <div class="channel-title">Instagram</div>
+                  <div class="channel-value">@artigence_ai_hub</div>
+                </div>
+              </div>
+              <a href="https://www.instagram.com/artigence_ai_hub?stkn=eWQ0bm1oMmhqa2Fh" target="_blank" rel="noopener noreferrer" class="channel-action-btn" style="text-decoration:none;">Follow</a>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card reveal-on-scroll reveal-delay-2">
+            <div id="form-alert" class="form-alert" role="alert"></div>
+
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name *</label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="M. Haridas" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address *</label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="name@domain.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="category" class="form-label">Project Domain</label>
+                  <select id="category" name="category" class="form-control">
+                    <option value="AI Solutions">AI Solutions & ML</option>
+                    <option value="Web Applications">Web Applications</option>
+                    <option value="Mobile Applications">Mobile Applications (Flutter)</option>
+                    <option value="Digital Platforms">Digital Platforms & IoT</option>
+                    <option value="General Inquiry">General Partnership</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" id="subject" name="subject" class="form-control" placeholder="Project Concept / Collaboration">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Project Overview & Requirements *</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Tell us about the challenge you are looking to solve..." rows="4" required></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  Submit Inquiry
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+
+                <button type="button" id="whatsapp-direct-btn" class="btn btn-secondary" style="width: 100%;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #25D366;"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                  Connect Directly on WhatsApp
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       FOOTER
+       ==================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand-wrap">
+          <div class="brand-logo">
+            <img src="assets/logo.jpg" alt="Artigence AI Hub Logo" class="brand-logo-img" width="38" height="38">
+            <div class="brand-logo-text">
+              <span class="footer-brand-title">ARTIGENCE AI HUB</span>
+              <span class="footer-brand-sub">AI • SOFTWARE • DIGITAL SOLUTIONS</span>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            Turning Ideas into Intelligent Solutions. Dedicated to engineering robust software applications, AI integrations, and digital platforms.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Us</a></li>
+            <li><a href="#solutions" class="footer-link">Solutions</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#technology" class="footer-link">Technology</a></li>
+          </ul>
+        </div>
+
+        <!-- Solutions -->
+        <div>
+          <h4 class="footer-col-title">Expertise</h4>
+          <ul class="footer-links-list">
+            <li><a href="#solutions" class="footer-link">AI Systems</a></li>
+            <li><a href="#solutions" class="footer-link">Web Applications</a></li>
+            <li><a href="#solutions" class="footer-link">Mobile Apps (Flutter)</a></li>
+            <li><a href="#solutions" class="footer-link">Digital Platforms</a></li>
+            <li><a href="#approach" class="footer-link">Our Approach</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect -->
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Tamil Nadu, India<br>
+            artigenceaihub@gmail.com
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://wa.me/918870265485" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Connect on WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </a>
+            <a href="mailto:haridassharidass431@gmail.com" class="social-icon-btn" aria-label="Send an Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="tel:+918870265485" class="social-icon-btn" aria-label="Call Direct">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Notice -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 ARTIGENCE AI HUB. All rights reserved.
+        </div>
+        <div>
+          Innovate • Automate • Elevate
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================================================================
+       INTERACTIVE PROJECT MODAL
+       ==================================================================== -->
+  <div id="project-modal" class="project-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="project-modal-card">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close project modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-header-banner">
+        <span id="modal-category" class="modal-category-tag">Category</span>
+        <h3 id="modal-title" class="modal-title">Project Title</h3>
+        <p id="modal-subtitle" class="modal-subtitle">Project Subtitle</p>
+      </div>
+
+      <div class="modal-content-body">
+        <div>
+          <h4 class="modal-section-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            Overview
+          </h4>
+          <p id="modal-long-desc" style="color: var(--text-muted); line-height: 1.7; font-size: 0.95rem;"></p>
+        </div>
+
+        <div id="modal-visual-box" style="display: none;"></div>
+
+        <div>
+          <h4 class="modal-section-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            Key Capabilities & Features
+          </h4>
+          <div id="modal-features" class="modal-feature-list"></div>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            Technology & Architecture
+          </h4>
+          <div id="modal-tech" class="modal-tech-grid"></div>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title" style="color: var(--accent-emerald);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Real-World Impact
+          </h4>
+          <p id="modal-impact" style="color: #cbd5e1; font-size: 0.9rem; line-height: 1.6;"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/cursor-fx.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
